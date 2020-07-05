@@ -53,6 +53,7 @@ public class NewTest7 {
 			driver.findElement(By.linkText("Log out")).click();
 			driver.findElement(By.linkText("Log in")).click();
 			Assert.assertTrue(true);
+			System.out.println("Test Passed");
 		}else {
 			driver.findElement(By.id("Email")).clear();
 			driver.findElement(By.id("Password")).clear();
